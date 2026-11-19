@@ -1,0 +1,15 @@
+{
+  "name": "rooticket-locales",
+  "private": true,
+  "type": "module",
+  "description": "Translations for RooTicket, the open ticket bot for Discord.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "check": "node scripts/check.ts",
+    "sync": "node scripts/sync.ts",
+    "add-key": "node scripts/add-key.ts",
+    "new-locale": "node scripts/new-locale.ts"
+  }
+}

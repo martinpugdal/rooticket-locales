@@ -1,0 +1,28 @@
+name: Translation fix
+description: A text is wrong, unclear or sounds unnatural in your language.
+labels: [translation]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g. Dansk (da)
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where is the text?
+      description: The key (e.g. ticket.closedBy) if you know it, otherwise where you saw it. A screenshot helps.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested text
+    validations:
+      required: true

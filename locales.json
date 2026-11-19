@@ -1,0 +1,8 @@
+{
+  "$comment": "Registry of supported languages. 'en' is the source catalog. 'discord' lists Discord client locale IDs (https://discord.com/developers/docs/reference#locales). 'country' is an ISO 3166-1 alpha-2 code for the flag. 'status' is 'stable' (100% translated, reviewed) or 'beta' (partial, falls back to English).",
+  "locales": {
+    "en": { "label": "English", "country": "GB", "discord": ["en-US", "en-GB"], "status": "stable" },
+    "da": { "label": "Dansk", "country": "DK", "discord": ["da"], "status": "stable" },
+    "no": { "label": "Norsk", "country": "NO", "discord": ["no"], "status": "stable" }
+  }
+}

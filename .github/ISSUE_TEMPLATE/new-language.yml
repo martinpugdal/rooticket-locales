@@ -1,0 +1,25 @@
+name: New language
+description: Ask for (or volunteer to translate) a language RooTicket does not support yet.
+labels: [translation, new-language]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g. Deutsch (de)
+    validations:
+      required: true
+  - type: dropdown
+    id: helping
+    attributes:
+      label: Will you translate it?
+      options:
+        - Yes, I will open a pull request
+        - I can help, but not do all of it
+        - No, just requesting it
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
